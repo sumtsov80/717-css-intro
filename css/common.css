@@ -1,0 +1,20 @@
+/*
+
+selector {
+    property: value;
+    another-property: value;
+
+
+*/
+h1 {
+    color:blue;
+}
+.product-card__h3 {
+    color:red;
+    color: red;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
