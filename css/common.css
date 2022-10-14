@@ -1,20 +1,27 @@
-/*
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-selector {
-    property: value;
-    another-property: value;
-
-
-*/
-h1 {
-    color:blue;
-}
-.product-card__h3 {
-    color:red;
-    color: red;
-}
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    font-family: 'Barlow Condensed', sans-serif;
+    --text-color: var#222;
+    --alternate-text-color:#898989;
+}
+
+h1 {
+   color:var(--text-color)
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.product-card__h3 {
+    color: var(--alternate-text-color);
+}
+
